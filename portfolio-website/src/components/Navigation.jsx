@@ -1,20 +1,21 @@
-import { Link } from "react-router-dom";
-import "../styling/Navigation.css";
+import "../App.css";
 
 function Navigation() {
+  const scrollToPage = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="navigation-container">
-      <Link className="link" to="/">
-        Home
-      </Link>
-      <Link className="link" to="/About">
-        About Me
-      </Link>
-      <Link className="link" to="/Contact">
-        Contact Me
-      </Link>
+      <button onClick={() => scrollToPage("home")}>Home</button>
+      <button onClick={() => scrollToPage("about")}>About</button>
+      <button onClick={() => scrollToPage("projects")}>Projects</button>
+      <button onClick={() => scrollToPage("contact")}>Contact Me</button>
       <a className="link" href="https://github.com/Holy0S">
-        GitHub
+        <button>GitHub</button>
       </a>
     </div>
   );

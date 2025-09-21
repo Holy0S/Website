@@ -2,9 +2,9 @@ import "../App.css/";
 
 function About() {
   return (
-    <>
-      <h1>About Me</h1>
-    </>
+    <div className="aboutpage" id="about">
+      <h1 className="title">About Me</h1>
+    </div>
   );
 }
 

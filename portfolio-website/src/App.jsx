@@ -5,16 +5,16 @@ import Navigation from "./components/Navigation.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
+import Projects from "./pages/Projects.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </BrowserRouter>
   );
 }

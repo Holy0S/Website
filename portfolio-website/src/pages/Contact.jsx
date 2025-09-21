@@ -2,9 +2,9 @@ import "../App.css/";
 
 function Contact() {
   return (
-    <>
-      <h1>Contact Me</h1>
-    </>
+    <div className="contactpage" id="contact">
+      <h1 className="title">Contact Me</h1>
+    </div>
   );
 }
 
