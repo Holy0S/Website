@@ -8,6 +8,7 @@ function AnimatedLink( {text, link} ) {
                 <div className="animated-link-text">
                     {text}
                 </div>
+                <div className="animated-link-underline"/>
             </Link>
         </div>
     )

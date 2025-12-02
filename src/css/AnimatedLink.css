@@ -6,4 +6,22 @@
     color: #000;
     font-size: 20px;
     font-weight: 750;
+    transition: color 0.15s ease;
+}
+
+.animated-link-underline {
+    height: 2px;
+    width: 0%;
+    margin-left: 50%;
+    background-color: rgb(255, 217, 0);
+    transition: width 0.25s ease, margin-left 0.25s ease;
+}
+
+.animated-link-container:hover .animated-link-text {
+    color: rgb(255, 217, 0);
+}
+
+.animated-link-container:hover .animated-link-underline {
+    width: 100%;
+    margin-left: 0%;
 }
