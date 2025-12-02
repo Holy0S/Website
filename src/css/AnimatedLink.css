@@ -1,27 +1,65 @@
+@import url("Variables.css");
+
 .animated-link-container {
     margin: 10px;
 }
 
 .animated-link-text {
-    color: #000;
-    font-size: 20px;
+    color: var(--color-text);
+    font-size: 1.5em;
     font-weight: 750;
     transition: color 0.15s ease;
+    text-decoration: inherit;
 }
 
 .animated-link-underline {
     height: 2px;
     width: 0%;
     margin-left: 50%;
-    background-color: rgb(255, 217, 0);
+    background-color: var(--color-accent);
     transition: width 0.25s ease, margin-left 0.25s ease;
 }
 
 .animated-link-container:hover .animated-link-text {
-    color: rgb(255, 217, 0);
+    color: var(--color-accent);
 }
 
 .animated-link-container:hover .animated-link-underline {
     width: 100%;
     margin-left: 0%;
+}
+
+.animated-link-text-active {
+    color: var(--color-accent);
+    font-size: 1.5em;
+    font-weight: 750;
+}
+
+.animated-link-underline-active {
+    width: 100%;
+    margin-left: 0%;
+    height: 2px;
+    background-color: var(--color-accent);   
+}
+
+@media (prefers-color-scheme: light) {
+    .animated-link-text {
+        color: var(--color-text);
+    }
+
+    .animated-link-underline {
+        background-color: var(--color-accent);
+    }
+
+    .animated-link-container:hover .animated-link-text {
+    color: var(--color-accent);
+    }
+
+    .animated-link-text-active {
+    color: var(--color-accent);
+    }
+
+    .animed-link-underline-active {
+        background-color: var(--color-accent);
+    }
 }
