@@ -1,9 +1,11 @@
 import "../css/ProjectPreview.css"
 
-function ProjectPreview( {title, description} ) {
+function ProjectPreview( {title, description, image, link} ) {
+    console.log(image)
     return(
+        <a href={link}>
         <div className="project-preview-container">
-            <div className="project-preview-image"/>
+            <img className="project-preview-image" src={image} alt={title}/>
             <div className="project-preview-title">
                 {title}
             </div>
@@ -11,6 +13,7 @@ function ProjectPreview( {title, description} ) {
                 {description}
             </div>
         </div>
+        </a>
     )
 }
 

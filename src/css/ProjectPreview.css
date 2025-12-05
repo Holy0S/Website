@@ -2,13 +2,16 @@
 
 .projects-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .project-preview-container {
     background-color: var(--color-2);
     width: 300px;
     height: 400px;
-    margin: 10px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -16,11 +19,12 @@
 }
 
 .project-preview-image {
-    background-color: var(--color-accent);
+    background-color: var(--color-1);
     width: 275px;
     height: 200px;
     margin-top: 15px;
     border-radius: 25px;
+    object-fit: cover;
 }
 
 .project-preview-title {
