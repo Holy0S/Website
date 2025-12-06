@@ -1,8 +1,18 @@
 @import url("Variables.css");
 
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.page-container {
+    width: 100%;
+    overflow-y: scroll;
+    height: 90vh;
+    scrollbar-width: none;
+}
+
+.page::-webkit-scrollbar {
+    display: none;
 }
