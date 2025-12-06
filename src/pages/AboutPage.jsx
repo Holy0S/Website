@@ -1,4 +1,5 @@
 import Header from '../components/Header.jsx';
+import Background from "../components/Background.jsx";
 import '../css/App.css';
 
 function AboutPage() {
@@ -10,6 +11,7 @@ function AboutPage() {
                 <h1>About Me</h1>
                 <h2>Description of me</h2>
                 </div>
+                <Background/>
             </div>
         </>
     )

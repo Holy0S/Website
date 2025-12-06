@@ -1,4 +1,5 @@
 import Header from '../components/Header.jsx';
+import Background from '../components/Background.jsx';
 import '../css/App.css';
 
 function HomePage() {
@@ -10,6 +11,7 @@ function HomePage() {
                 <h1>Home</h1>
                 <h2>Home page</h2>
                 </div>
+                <Background/>
             </div>
         </>
     )

@@ -3,6 +3,7 @@ import ProjectPreview from '../components/ProjectPreview.jsx';
 import "../css/ProjectPreview.css";
 import projects from "../data/Projects.json";
 import '../css/App.css';
+import Background from "../components/Background.jsx";
 
 function ProjectsPage() {
     return (
@@ -18,6 +19,7 @@ function ProjectsPage() {
                     ))}
                 </div>
                 </div>
+                <Background/>
             </div>
         </>
     )

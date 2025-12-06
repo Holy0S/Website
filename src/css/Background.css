@@ -1,0 +1,49 @@
+:root {
+    --background-1: rgb(255, 212, 93);
+    --background-2: rgb(255, 227, 148);
+    --background-3: rgb(255, 238, 192);
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.square-1 {
+    position: absolute;
+    left: 26%;
+    top: 31.8%;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 3%;
+    background-color: var(--background-1);
+    rotate: -5deg;
+}
+
+.square-2 {
+    position: absolute;
+    left: 36%;
+    top: 32%;
+    width: 24vw;
+    height: 24vw;
+    border-radius: 3%;
+    background-color: var(--background-2);
+    rotate: 0deg;
+    z-index: -1;
+}
+
+.square-3 {
+    position: absolute;
+    left: 49%;
+    top: 34%;
+    width: 23vw;
+    height: 23vw;
+    border-radius: 3%;
+    background-color: var(--background-3);
+    rotate:5deg;
+    z-index: -2;
+}
