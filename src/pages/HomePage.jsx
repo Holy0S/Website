@@ -14,9 +14,9 @@ function HomePage() {
                     <h2>I'm a 3rd year computer science student at Oregon State University.</h2>
                     <h2>Latest Work</h2>
                     <div className="projects-container">
-                        <ProjectPreview></ProjectPreview>
-                        <ProjectPreview></ProjectPreview>
-                        <ProjectPreview></ProjectPreview>
+                        <ProjectPreview image="cat1.jpg"></ProjectPreview>
+                        <ProjectPreview image="cat2.jpg"></ProjectPreview>
+                        <ProjectPreview image="cat3.jpg"></ProjectPreview>
                     </div>
                 </div>
                 <Background/>
