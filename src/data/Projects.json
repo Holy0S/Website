@@ -2,14 +2,14 @@
     {
         "title": "Trace Route",
         "description": "Trace Route was the final project for my CS372 Intro to Computer Networks class. It involved creating an implementation of a ping function and then using that ping function to create a trace route function.",
-        "image": "/cat1.jpg",
-        "link": "https://google.com"
+        "image": "/TraceRoute.png",
+        "link": "https://github.com/Holy0S/Trace-Route"
     },
     {
-        "title": "Cat 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image": "/cat2.jpg",
-        "link": "https://google.com"
+        "title": "Fighting Fighters",
+        "description": "Fighting Fighters is the group final project for my CS290 Web Development class. It's a 1v1 card fighting game with multiple classes to choose from.",
+        "image": "/FightingFighters.png",
+        "link": "https://github.com/Holy0S/Fighting-Fighters"
     },
     {
         "title": "Cat 3",
