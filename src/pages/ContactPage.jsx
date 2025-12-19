@@ -9,7 +9,10 @@ function ContactPage() {
             <div className="page-container">
                 <div className="page">
                 <h1>Contact Me</h1>
-                <div className="contact-box"></div>
+                <div className="contact-box">
+                    <input type="text" placeholder="example@email.com"/>
+                    <textarea placeholder="Message.."/>
+                </div>
                 </div>
                 <Background/>
             </div>
