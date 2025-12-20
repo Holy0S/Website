@@ -12,9 +12,9 @@
         "link": "https://github.com/Holy0S/Fighting-Fighters"
     },
     {
-        "title": "Cat 3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image": "/cat3.jpg",
-        "link": "https://google.com"
+        "title": "Reverse Temps",
+        "description": "Reverse Temps was the portfolio project for my CS271 Computer Architecture and Assembly Language class. It reads a list of temperatures from a -delimited file, stores them in memory, and prints them out in the reverse order. The code makes use of the Irvine32 library.",
+        "image": "/ReverseTemps.png",
+        "link": "https://github.com/Holy0S/Reverse-Temps"
     }
 ]
